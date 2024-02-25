@@ -12,7 +12,7 @@ Ce projet vise à suivre la Station Spatiale Internationale (ISS) et à envoyer 
 
 
 ## Exécution du Script
-- Exécutez le script iss_tracker.py.
+- Exécutez le script main.py.
 - Le script s'exécute en continu (toutes les 60 secondes), vérifiant la position de l'ISS et les conditions nocturnes.
 Si l'ISS est au-dessus de la tête et qu'il fait nuit, une notification par courriel sera envoyée.
 
