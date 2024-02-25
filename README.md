@@ -10,19 +10,18 @@ Ce projet vise à suivre la Station Spatiale Internationale (ISS) et à envoyer 
 
 3. Notification : Si l'ISS est au-dessus de la tête et qu'il fait nuit, le script envoie une notification par courriel pour alerter l'utilisateur.
 
-## Configuration
+## Variables
 Coordonnées : Remplacez MY_LAT et MY_LONG par la latitude et la longitude de votre emplacement.
 Paramètres de Courriel : Fournissez votre adresse courriel Gmail (MY_EMAIL) et votre mot de passe (MY_PASSWORD) pour activer les notifications par courriel.
-Accès aux API : Assurez-vous que votre appareil a accès à l'API Open Notify et à l'API Sunrise-Sunset.
-Exécution du Script
 
-
-##Exécutez le script iss_tracker.py.
-Le script s'exécute en continu, vérifiant la position de l'ISS et les conditions nocturnes.
+## Exécution du Script
+- Exécutez le script iss_tracker.py.
+- Le script s'exécute en continu (toutes les 60 secondes), vérifiant la position de l'ISS et les conditions nocturnes.
 Si l'ISS est au-dessus de la tête et qu'il fait nuit, une notification par courriel sera envoyée.
 
 ## Installation et Configuration
-Python 3.9.6
+- Python : Version 3.9.6
+- Bibliothèques Python : requests, datetime, smtplib, time
 
 ## Remarques
 Ce projet a été réalisé dans le cadre du cours [100 Days of Code: The Complete Python Pro Bootcamp](https://www.udemy.com/course/100-days-of-code/) de Angela Yu sur la plateforme Udemy.
